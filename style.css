@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css?family=Raleway');*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
   margin: 0;
@@ -18,9 +18,12 @@ header, main, footer {
 }
 
 header {
+  color: white;
   padding: 2em;
   text-align: center;
-  /*background-image: url('sciezka');*/
+  background-size: cover;
+  background-image: url('img/bg.jpg');
+  background-position: center;
 }
 
 header section {
